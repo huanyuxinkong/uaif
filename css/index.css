@@ -95,7 +95,7 @@ a{
 }
 .right .erweima{
 	border-style: solid;
-    border-color: #e4e4e4 #e4e4e4 #f6f6f6;
+  border-color: #e4e4e4 #e4e4e4 #f6f6f6;
 	border: 1px solid #cfcfcf;
 	padding: 5px;
 	/* background: #f6f6f6; */
@@ -104,6 +104,20 @@ a{
 	position: absolute;
 	right: 0;
 	margin-top: 30px;
+}
+.right .erweima::before{
+	content: '';
+	position: absolute;
+	display: block;
+	top: -9px;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color: #e4e4e4 #e4e4e4 #f6f6f6;
+	border-width: 5px;
+
 }
 .right .erweima img{
 	width: 100%;
@@ -665,6 +679,8 @@ a{
 	text-align: center;
 	position: relative;
 	float: left;
+	
+	
 }
 .shangou_box .time .hover::before{
 	content: '';
@@ -675,11 +691,14 @@ a{
 	position: absolute;
 	left: 0;
 	top: 50%;
+	z-index: 1;
 }
 .shangou_box .time .hover span{
 	font-size: 20px;
 	line-height: 40px;
 	font-weight: bold;
+	position: relative;
+	z-index: 999;
 }
 .shangou .shangou_mid_box{
 	width: 800px;
@@ -748,7 +767,7 @@ a{
 }
 .shangou .shangou_mid .mid_box .price{
 	width: 160px;
-	height: 20px;
+	height: 22px;
 	padding: 1px;
 	box-sizing: border-box;
 	line-height: 20px;
@@ -759,7 +778,7 @@ a{
 }
 .shangou .shangou_mid .mid_box .price .new{
 	width: 79px;
-	height: 18px;
+	height: 20px;
 	color: #fff;
 	text-align: center;
 	font-size: 14px;
@@ -775,8 +794,14 @@ a{
 	color: #b7bcb8;
 	background: #fff;
 	float: right;
+	font-size: 12px;
+	line-height: 20px;
+	font-style: normal;
 }
 
+.shangou .shangou_mid .mid_box .price .old span{
+	text-decoration: line-through;
+}
 .shangou .right{
 	width: 200px;
 	height: 100%;
@@ -818,7 +843,6 @@ a{
 .j_pai{
 	width: 100%;
 	height: 480px;
-	margin-bottom: 30px;
 }
 .j_pai_box{
 	width: 1190px;
@@ -836,7 +860,7 @@ a{
 	width: 390px;
 	height: 64px;
 	background: white;
-	padding: 0 10px;
+	padding: 0 20px;
 	box-sizing: border-box;
 	line-height: 64px;
 }
@@ -855,7 +879,7 @@ a{
 .box_hd span{
 	font-size: 14px;
 	color: #999;
-	margin-left: 10px;
+	margin-left: 4px;
 }
 .box_body{
 	width: 390px;
@@ -1192,4 +1216,398 @@ a{
 	overflow: hidden;
 	text-align: center
 }
+.paihang .box_body .good{
+	width: 375px;
+	height: 368px;
+	margin-left:15px
+}
+.paihang .box_body .good .chose {
+	width: 100%;
+	height: 100%;
+}
+.paihang .box_body .good .chose .ch_1{
+	display: block;
+	width: 180px;
+	height: 184px;
+	text-align: center;
+	float: left;
+}
+.paihang .box_body .good .chose .ch_1 .ch_p{
+	width: 110px;
+	height: 110px;
+	margin: 0 auto;
+}
+.paihang .box_body .good .chose .ch_1:hover img{
+	opacity: 0.8;
+}
+.paihang .box_body .good .chose .ch_1 .ch_p img{
+	width: 100%;
+	height: 100%；
+}
+.paihang .box_body .good .chose .ch_1 .ch_ti{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #3e8c96;
+	height: 16px;
+	padding: 0 10px;
+	margin-top: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	transition: color ease 0.2s;
+
+}
+.paihang .box_body .good .chose .ch_1 .ch_sub{
+	display: block;
+	font-size: 12px;
+	color: #666;
+	height: 16px;
+	line-height: 14px;
+	margin-top: 6px;
+	padding: 0 8px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	transition: color ease 0.2s;
+}
+.paihang .box_body .good .chose .ch_1:hover .ch_ti{
+	color: #e33333;
+}
+.paihang .box_body .good .chose .ch_1:hover .ch_sub{
+	color: #e33333;
+}
+.paihang .box_body .huiguan .bg_p{
+	width: 350px;
+	height: 250px;
+
+}
+.paihang .box_body .huiguan .bg_p:hover img{
+	opacity: 0.8;
+}
+.paihang .box_body .huiguan .bg_p img{
+	width: 100%;
+	height: 100%;
+}
+.paihang .box_body .huiguan .bg_li{
+	width: 350px;
+	height: 110px;
+	margin-top: 10px;
+}
+.paihang .box_body .huiguan .bg_li .bg_small{
+	width: 110px;
+	height: 110px;
+	margin-right: 10px;
+	float: left;
+}
+.paihang .box_body .huiguan .bg_li .bg_small img{
+	width: 100%;
+	height: 100%;
+}
+.paihang .box_body .huiguan .bg_li .bg_small:hover img{
+	opacity: 0.8;
+}
+.paihang .box_body .huiguan .bg_li .three{
+	margin-right: 0;
+}
 /* me结束 */
+/* 时尚达人开始 */
+.shi_ti{
+	height: 65px;
+}
+.shi_ti .ti_box{
+	width: 1190px;
+	margin: 0 auto;
+}
+.shi_ti .ti_box .title{
+	width: 150px;
+	height: 45px;
+	font-size: 28px;
+	font-weight: normal;
+	margin: 0 auto;
+	text-align: center;
+	color: #222;
+	overflow: hidden;
+	line-height: 45px;
+	position: relative;
+	padding: 0 50px;
+}
+.shi_ti .ti_box .title::before{
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 3px;
+	background: #222;
+	display: block;
+	top: 23px;
+	left: 0;
+}
+.shi_ti .ti_box .title::after{
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 3px;
+	background: #222;
+	display: block;
+	top: 23px;
+	left: 200px;
+}
+.shi_bd{
+	width: 100%;
+	height: 480px;
+}
+.shi_bd .bd_bx{
+	width: 1190px;
+	margin: 0 auto;
+}
+.bd_kuai{
+	width: 390px;
+	height: 450px;
+	margin: 0 10px 30px 0;
+	background: #fff;
+	float: left;
+}
+.shi_bd .rit{
+	margin-right: 0; 
+}
+.shi_bd .bd_bx .bx_bd{
+	background: #fff;
+}
+.shi_bd .bd_bx .bx_bd .bx_sp{
+	margin-left: 20px;
+}
+.shi_bd .bd_bx .bx_bd .bx_sp .bx_pi{
+	width: 350px;
+	height: 180px;
+	margin-bottom: 10px;
+	float: left;
+}
+.shi_bd .bd_bx .bx_bd .bx_sp .bx_pi:hover{
+	opacity: 0.8;
+}
+.shi_bd .bd_bx .bx_bd .bx_sp .little{
+	width: 170px;
+	height: 180px;
+	margin: 0 10px 10px 0;
+}
+.shi_bd .bd_bx .bx_bd .bx_sp .bx_pi img{
+	width: 100%;
+	height: 100%;
+}
+.shi_bd .guang{
+	background: transparent;
+}
+.bd_kuai .liner{
+	width: 390px;
+	height: 450px;
+	/* background: red; */
+	position: relative;
+}
+.bd_kuai .liner ::before{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 340px;
+	height: 420px;
+	border: 5px solid #333;
+	top: 20px;
+	right: 0;
+	
+}
+.li_right .liner ::before{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 340px;
+	height: 420px;
+	border: 5px solid #333;
+	top: 20px;
+	right:40px;
+	
+}
+
+.li_right .liner .li_picture img{
+	margin-right: 0;
+}
+.bd_kuai .liner .li_picture{
+	width: 340px;
+	height: 420px;
+	float: left;
+	margin-left: 20px;
+}
+.li_right .liner .li_picture{
+	margin-left: 40px;
+}
+.bd_kuai .liner .li_picture:hover{
+	opacity: 0.8	;
+}
+.bd_kuai .liner .li_picture img{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	z-index: 999;
+}
+.bd_kuai .huwai{
+	width: 350px;
+	height: 450px;
+	margin: 0 auto;
+}
+.bd_kuai .huwai .huwai_box{
+	width: 100%;
+	height: 225px;
+
+}
+.bd_kuai .huwai .bottom{
+	border-bottom: 1px solid #f3f2f1;
+}
+.bd_kuai .huwai .huwai_box .huw_ti{
+	height: 18px;
+	padding-top: 20px;
+	
+	line-height: 18px;
+}
+.bd_kuai .huwai .huwai_box .huw_ti .huw_title{
+	width: 350px;
+	color: #222;
+	font-weight: normal;
+	margin: auto;
+	font-size: 18px;
+}
+.bd_kuai .huwai .huwai_box .huw_ti .huw_title span{
+	color: #999;
+	font-size: 14px;
+	vertical-align: 1px;
+}
+.bd_kuai .huwai .huwai_box .huw_bd{
+	width: 100%;
+	padding-top: 35px;
+}
+.bd_kuai .huwai .huwai_box .huw_bd .huw_picture{
+	width: 130px;
+	height: 130px;
+	margin-right: 25px;
+	margin-left: 20px;
+	float: left;
+}
+.bd_kuai .huwai .huwai_box .huw_bd .huw_picture img{
+	width: 100%;
+	height: 100%;
+}
+.bd_kuai .huwai .huwai_box .huw_bd .huw_picture img:hover{
+	opacity: 0.8;
+}
+.bd_kuai .huwai .huwai_box .huw_bd .two{
+	margin-right: 20px;
+	margin-left: 25px;
+}
+.bd_bx .three{
+	margin-right: 0;
+}
+.bd_kuai .haiwai{
+	margin: 20px 20px 0;
+	overflow: hidden;
+}
+.bd_kuai .haiwai .shop_ti{
+	width: 350px;
+	height: 45px;
+	/* background: red; */
+	margin-bottom: 20px;
+}
+.bd_kuai .haiwai .shop_ti .ti_picture{
+	width: 130px;
+	height: 43px;
+	border: 1px solid #ccc;
+	background: #fff;
+	overflow:hidden;
+	float: left; 
+	
+}
+.bd_kuai .haiwai .shop_ti .ti_picture img{
+	width: 100%;
+	height: 100%;
+}
+.bd_kuai .haiwai .shop_ti .ti_name{
+		height: 45px;
+		line-height: 45px;
+		float: right;
+}
+.bd_kuai .haiwai .shop_ti .ti_name span{
+	font-size: 18px;
+	color: #333;
+	margin-right: 7px;
+}
+.bd_kuai .haiwai .bd_picture{
+	width: 350px;
+	height: 226px;
+	margin-bottom: 20px;
+}
+.bd_kuai .haiwai .bd_picture img{
+	width: 100%;
+	height: 100%;
+}
+.bd_kuai .haiwai .bd_small{
+	width: 100%;
+	height: 100%;
+}
+.bd_kuai .haiwai .bd_small .small_bx{
+	width: 100px;
+	height: 100px;
+	margin-right: 25px;
+	float: left;
+}
+.bd_kuai .haiwai .bd_small .three{
+	margin-right: 0;
+}
+.bd_kuai .haiwai .bd_small .small_bx img{
+	width: 100%;
+	height: 100%;
+}
+.bd_kuai .haiwai .li:hover{
+	opacity: 0.8;
+}
+.double .ab{
+	width: 340px;
+	height: 420px;
+	background: #F0F3EF;
+	position: relative;
+	z-index: 999;	
+}
+.linear{
+	width: 390px;
+	height: 450px;
+	position: relative;
+}
+.double .left{
+	margin-left: 20px;
+}
+
+.double .left .sm{
+	width: 340px;
+	height: 200px;
+	margin-bottom: 20px;
+	background: oldlace;
+	
+
+}
+.double .left .sm img{
+	width: 100%;
+	height: 100%;
+	
+}
+.double .left .sm img:hover{
+	opacity: 0.8;
+}
+.double .left .last{
+	margin-bottom: 0;
+}
+.double .linear::before{
+	content: '';
+	position: absolute;
+	display: block;
+	width: 340px;
+	height: 420px;
+	border: 5px solid #333;
+	top: 20px;
+	right: 0;
+}
+/* 时尚达人结束 */
