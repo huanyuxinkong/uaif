@@ -1,12 +1,12 @@
 /* iconfont引入代码开始 */
 @font-face {
   font-family: 'iconfont';  /* project id 1058811 */
-  src: url('https://at.alicdn.com/t/font_1058811_pvxlkzusxx.eot');
-  src: url('https://at.alicdn.com/t/font_1058811_pvxlkzusxx.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_1058811_pvxlkzusxx.woff2') format('woff2'),
-  url('https://at.alicdn.com/t/font_1058811_pvxlkzusxx.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_1058811_pvxlkzusxx.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_1058811_pvxlkzusxx.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_1058811_ve8vvrmdqf.eot');
+  src: url('//at.alicdn.com/t/font_1058811_ve8vvrmdqf.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1058811_ve8vvrmdqf.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1058811_ve8vvrmdqf.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1058811_ve8vvrmdqf.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1058811_ve8vvrmdqf.svg#iconfont') format('svg');
 }
 .iconfont{
 	font-family:"iconfont" !important;
@@ -363,6 +363,7 @@ a{
 	position: absolute;
 	top:215px;
 	left: 0;
+	cursor: pointer;
 }
 .gg_box .mid .picture .right{
 	left: 565px;
@@ -429,7 +430,7 @@ a{
 	padding: 5px;
 	background: #e3e1df;
 	position: absolute;
-	top: -10px;
+	top: -20px;
 	left: 60px;
 	box-shadow: 3px 6px 25px #c3c3c3;
 }
@@ -718,6 +719,7 @@ a{
 	top: 90px;
 	left: 0;
 	z-index: 3;
+	cursor: pointer;
 }
 .shangou .shangou_mid_box .button:hover{
 	background: rgba(0,0,0,0.4);
@@ -968,9 +970,20 @@ a{
 	height: 6px;
 	border: 2px solid #b9beba;
 	border-radius: 50%;
+	margin-top: 3px;
+	margin-left: 3px;
 
 }
-
+.paihang .box_body .slid .yn{
+	border-radius: 50%;
+}
+.paihang .box_body .slid .yn:hover{
+	background: #fdd9dd;
+}
+.paihang .box_body .slid .yn:hover .yn_w{
+	border: 2px solid transparent;
+	background: #eb3436;
+}
 .paihang .box_body .butt{
 	width: 20px;
 	height: 40px;
@@ -979,6 +992,7 @@ a{
 	margin-top: 157px;
 	line-height: 40px;
 	font-style:normal;
+	cursor: pointer;
 }
 .paihang .box_body .butt:hover{
 	background-color: rgba(0,0,0,0.4);
@@ -1530,6 +1544,7 @@ a{
 		height: 45px;
 		line-height: 45px;
 		float: right;
+		width: 210px;
 }
 .bd_kuai .haiwai .shop_ti .ti_name span{
 	font-size: 18px;
@@ -1611,3 +1626,693 @@ a{
 	right: 0;
 }
 /* 时尚达人结束 */
+/* 智能先锋开始 */
+.phone .bx_bd .small_pi{
+	width: 348px;
+	/* border-width: 0 1px 1px 0; */
+	border-right:1px solid #ebeaea;
+	border-bottom:1px solid #ebeaea;
+	float: left;
+	overflow: hidden;
+	
+}
+.phone .bx_bd .small_pi .small_pi_box{
+	width: 86px;
+	height: 58px;
+	background: #fff;
+	/* border-width: 1px 0  0 1px ; */
+	border-top: 1px solid #ebeaea;
+	border-left: 1px solid #ebeaea;
+	float: left;
+	overflow: hidden;
+	/* box-sizing: border-box; */
+}
+.phone .bx_bd .small_pi .small_pi_box .box{
+	width: 80px;
+	height: 100%;
+	padding: 0 3px 0;
+	box-sizing: border-box;
+}
+#quan{
+	height: 370px;
+}
+.double_other .linear::before{
+	content: '';
+	top: 20px;
+  right: 40px;
+}
+.double_other .linear .left{
+	margin-left:30px; 
+}
+#shuang{
+	height: 180px;
+	margin-bottom: 10px;
+}
+
+/* 智能先锋结束 */
+/* 居家优品开始 */
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_pi{
+	width: 350px;
+	height: 165px;
+	margin: 0 auto;
+}
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_pi:hover{
+	opacity: 0.8;
+}
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_pi img{
+	width: 100%;
+	height: 100%;
+
+}
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_sm{
+	width: 350px;
+	height: 197px;
+	margin-top: 12px;
+}
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_sm .jd_bx{
+	width: 150px;
+	height: 197px;
+	margin-right: 50px;
+	float: left;
+	/* background: orange; */
+}
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_sm .jd_other{
+	margin-right: 0;
+	position: relative;
+}
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_sm .jd_other::before{
+	content: '';
+	display: block;
+	width: 1px;
+	height: 150px;
+	background-color: #efefef;
+	position: absolute;
+	left: -25px;
+	top: 0;
+}
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_sm .jd_bx .pi_box{
+	width: 150px;
+	height: 150px;
+}
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_sm .jd_bx .pi_box:hover{
+	opacity: 0.8;
+}
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_sm .jd_bx .pi_box img{
+	width: 100%;
+	height: 100%;
+
+}
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_sm .jd_bx .jd_bx_price{
+	width:150px;
+	height: 21px;
+	margin-top: 5px;
+	
+}
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_sm .jd_bx .jd_bx_price span{
+	color: #f62424;
+	font-size: 14px;
+}
+.shi .shi_bd .bd_bx .jd_zhizao .bx_bd .jd_sm .jd_bx .jd_box_name{
+	width: 150px;
+	height: 21px;
+	font-size: 14px;
+	color: #999;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+/* 居家优品结束 */
+/* joy寻宝开始 */
+.shi .xunbao_bd{
+	width: 1190px;
+	height: 500px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.shi .xunbao_bd .xunbao_box{
+	width: 390px;
+	height: 240px;
+	background: #fff;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+.shi .xunbao_bd .xun_last{
+	margin-right: 0;
+}
+.shi .xunbao_bd .xunbao_box .xunbao_pi{
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+.shi .xunbao_bd .xunbao_box .xunbao_pi .xunbao_ti{
+	width: 100%;
+	height: 27px;
+	position: absolute;
+	top: 39px;
+	left: 0;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	z-index: 999;
+}
+.shi .xunbao_bd .xunbao_box .xunbao_pi .xunbao_zhe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+	background: #000;
+	width: 100%;
+	height: 100%;
+	z-index: 6;
+}
+.shi .xunbao_bd .xunbao_box .xunbao_pi .xunbao_ti span{
+	font-weight: normal;
+}
+.shi .xunbao_bd .xunbao_box .xunbao_pi img{
+	width: 100%;
+	height: 100%;
+	filter: blur(3px);
+}
+.shi .xunbao_bd .xunbao_box .xunbao_shop{
+	width: 360px;
+	height: 110px;
+	margin: 10px auto;
+	/* background: red; */
+}
+.shi .xunbao_bd .xunbao_box .xunbao_shop .xunbao_li{
+	width: 110px;
+	height: 110px;
+	margin: 0 5px;
+	/* background: orange; */
+	float: left;
+}
+.shi .xunbao_bd .xunbao_box .xunbao_shop .xunbao_li .small_shop{
+	width: 100%;
+	height: 100%;
+}
+.shi .xunbao_bd .xunbao_box .xunbao_shop .xunbao_li .small_shop img{
+	width: 100%;
+	height: 100%;
+}
+.shi .xunbao_bd .xunbao_box .xunbao_shop .xunbao_li:hover{
+	opacity: 0.8;
+}
+/* joy寻宝结束 */
+/* 特色推荐开始 */
+.shi .tese{
+	width: 1190px;
+	height: 385px;
+	margin: 0 auto;
+	position: relative;
+
+}
+.shi .tese .tese_box{
+	width: 100%;
+	height: 340px;
+	/* background: pink; */
+	position: relative;
+}
+.shi .tese .tese_box .button{
+	width: 20px;
+	height: 40px;
+	background: rgba(0,0,0,.15);
+	position: absolute;
+	top: 50%;
+	line-height: 40px;
+	left: 0;
+	text-align: center;
+	color: hsla(0,0%,100%,.4);
+	z-index: 1;
+
+}
+.shi .tese .tese_box .button:hover{
+	/* color: hsla(0,0%,100%,.4); */
+	background-color: rgba(0,0,0,.4);
+}
+.shi .tese .tese_box .bu_rit{
+	left: 1170px;
+}
+.shi .tese .tese_bd{
+	width: 1190px;
+	height: 340px;
+}
+.shi .tese .tese_bd .tese_box{
+	width: 390px;
+	height: 330px;
+	background: #fff;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+
+}
+.shi .tese .tese_bd .tese_box .tese_pi{
+	width: 350px;
+	height: 250px;
+	margin:  auto;
+	/* background: rebeccapurple; */
+}
+.shi .tese .tese_bd .tese_box .tese_pi:hover{
+	opacity: 0.8;
+}
+.shi .tese .tese_bd .tese_box .tese_pi img{
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+}
+.shi .tese .tese_bd .right{
+	margin-right: 0;
+}
+.shi .tese .yndi{
+	/* width: 68px; */
+	height: 16px;
+	float: left;
+	/* background: orange; */
+	position: absolute;
+	left: 561px;
+	
+}
+.shi .tese .yndi .yuandian_box{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	margin-right: 1px;
+	/* background: blue; */
+	overflow: hidden;
+	float: left;
+}
+.shi .tese .yndi .yuandian_box .yuan{
+	width: 6px;
+	height: 6px;
+	border: 2px solid #b9beba;
+	margin-top: 3px;
+	margin-left: 3px;
+	border-radius: 50%;
+}
+.shi .tese .yndi .yuandian_box:hover{
+	background: #fdd9dd;
+}
+.shi .tese .yndi .yuandian_box:hover .yuan{
+	border: 2px solid transparent;
+	background: #eb3436;
+}
+/* 特色推荐结束 */
+
+/* 京东直播开始 */
+
+.shi .tese1 .zhibo{
+	width: 1190px;
+	height: 455px;
+	margin: auto;
+}
+.shi .tese1 .zhibo .zhibo_bx{
+	width: 390px;
+	height: 425px;
+	background: #fff;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	float: left;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body{
+	width: 360px;
+	height: 400px;
+	margin: 15px;
+	overflow: hidden;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .zhibo_body_bx{
+	width: 170px;
+	height: 190px;
+	margin: 5px;
+	float: left;
+	position: relative;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .zhibo_body_bx .pi_bx img{
+	width: 100%;
+	height: 100%;
+	
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .zhibo_body_bx .btn{
+	width: 44px;
+	height: 44px;
+	
+	color: #ECEDED;
+	position: absolute;
+	top: 73px;
+	left: 63px;
+	z-index: 9;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .zhibo_body_bx .btn i{
+	font-size: 44px;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .zhibo_body_bx .shuxin{
+	width: 170px;
+	height: 24px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 146px;
+	z-index: 8;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .zhibo_body_bx .shuxin span{
+	display: block;
+	width: 150px;
+	color: #ECEDED;
+	font-size: 14px;
+	line-height: 24px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align: center;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .zhibo_body_bx .zhibo_zhe{
+	background: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .zhibo_body_bx:hover .zhibo_zhe{
+	background: rgba(0, 0, 0, 0.15)
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .zhibo_body_bx:hover .btn{
+	color: #fff;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .zhibo_body_bx:hover .shuxin{
+	color: #fff;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .mid{
+	width: 350px;
+	height: 390px;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .mid .big2{
+	width: 60px;
+	height: 60px;
+	left: 145px;
+	top: 165px;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .mid .big2 i{
+	font-size: 60px;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .mid .big1{
+	width: 350px;
+	height: 54px;
+	top: 298px;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .mid .big1 span{
+	width: 330px;
+	height: 30px;
+	font-size: 18px;
+	line-height: 30px;
+}
+.shi .tese1 .zhibo .zhibo_bx .zhibo_body .mid .big1 .small{
+	height: 24px;
+	font-size: 14px;
+	line-height: 24px;
+}
+.shi .tese1 .zhibo .last{
+	margin-right: 0;
+}
+/* 京东直播结束 */
+/* 还没逛够开始 */
+.shi .haimei{
+	width: 1190px;
+	
+	margin: auto;
+}
+.shi .haimei .haimei_bg{
+	width: 1190px;
+	margin: 0 -5px 0;
+	display: block;
+	height: 630px;
+}
+.shi .haimei .haimei_bg .haimei_bx{
+	display: block;
+	width: 230px;
+	height: 305px;
+	background: #fff;
+
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+	position: relative;
+}
+.shi .haimei .haimei_bg .haimei_bx .hai_pi{
+	width: 150px;
+	height: 150px;
+	margin: 40px auto 18px;
+	background: red;
+}
+.shi .haimei .haimei_bg .haimei_bx .neirong{
+	width: 230px;
+	height: 65px;
+	padding: 0 16px 0;
+	box-sizing: border-box;
+	
+}
+.shi .haimei .haimei_bg .haimei_bx .neirong .name{
+	display: block;
+	width:198px; 
+	font-size: 12px;
+	color: #7d7d7d;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 40px;
+	line-height: 20px;
+	text-align: left;
+	/* white-space: nowrap; */
+}
+.shi .haimei .haimei_bg .haimei_bx .neirong .name span{
+	display: line-block;
+	padding: 0 5px;
+	border-radius: 2px;
+	background: #e33333;
+	color: #fff;
+}
+.shi .haimei .haimei_bg .haimei_bx .neirong .price{
+	width: 198px;
+	height: 24px;
+	margin-top: 5px;
+}
+.shi .haimei .haimei_bg .haimei_bx .neirong .price .pr{
+	float: left;
+	font-size: 16px;
+	line-height: 18px;
+	height: 18px;
+	color: #e33333;
+}
+.shi .haimei .haimei_bg .haimei_bx .neirong .price .pr span{
+	float: left;
+	margin-right:3px; 
+}
+.shi .haimei .haimei_bg .haimei_bx .neirong .price .quan{
+	float: left;
+	width: 34px;
+	height: 16px;
+	font-size: 12px;
+	color: #e33333;
+	line-height: 16px;
+	text-align: center;
+	border: 1px solid #e33333;
+	border-radius: 2px;
+	margin-left: 7px;
+}
+.shi .haimei .haimei_bg .haimei_bx .xiangxi{
+	position: absolute;
+	bottom: 8px;
+	left: 0;
+	width: 230px;
+	height: 66px;
+	text-align: center;
+	line-height: 66px;
+	opacity: 0;
+	/* display: none; */
+	background-color: rgba(255, 255, 255, 0.8);
+
+}
+.shi .haimei .haimei_bg .haimei_bx .xiangxi span{
+	display: inline-block;
+	font-size: 12px;
+	color: #fff;
+	background: #353131;
+	line-height: 26px;
+	height: 28px;
+	width: 80px;
+	border-radius: 15px;
+	text-align: center;
+	border: 1px solid #353131;
+	box-sizing: border-box;
+	
+	
+}
+.shi .haimei .haimei_bg .haimei_bx .xiangxi span i{
+	font-size: 14px;
+} 
+.shi .haimei .haimei_bg .haimei_bx .xiangxi .shan{
+	color: #353131;
+	background: #fff;
+}
+.shi .haimei .haimei_bg .haimei_bx:hover .xiangxi{
+	opacity: 1;
+}
+.shi .haimei .haimei_bg .haimei_bx:hover .hai_pi{
+opacity: 0.8;
+}
+.shi .haimei .haimei_bg .last{
+	margin-right: 0;
+}
+.shi .haimei .haimei_bg .pic .pic_body{
+	width: 230px;
+	height: 305px;
+	position: relative;
+}
+.shi .haimei .haimei_bg .pic .pic_body img{
+	width: 100%;
+	height: 100%;
+}
+.shi .haimei .haimei_bg .pic .pic_body .tubiao{
+	width: 44px;
+	height: 44px;
+	position: absolute;
+	top: 130px;
+	left: 93px;
+	z-index: 9;
+	color: #fff;
+}
+.shi .haimei .haimei_bg .pic .pic_body .tubiao i{
+	
+	font-size: 44px;
+}
+.shi .haimei .haimei_bg .pic .pic_body .zhe{
+	background: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 6;
+}
+
+.shi .haimei .haimei_bg .pic:hover .zhe{
+	background: rgba(0, 0, 0, 0.15);
+}
+/* 还没逛够结束 */
+/* 尾部开始 */
+.wei{
+	width: 100%;
+	height: 568px;
+}
+.wei .serve{
+	width: 1190px;
+	height: 42px;
+	margin: 30px auto;
+	/* border-bottom: 1px solid #dedede; */
+}
+.wei .serve .serve_box{
+	width: 297px;
+	height: 42px;
+	float: left;
+}
+.wei .serve .serve_box .serve_neiriong{
+	width: 180px;
+	height: 42px;
+	margin: 0 auto;
+	padding-left: 45px;
+	position: relative;
+}
+.wei .serve .serve_box .serve_neiriong .tubiao{
+	width: 36px;
+	height: 42px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.wei .serve .serve_box .serve_neiriong .tubiao img{
+	width: 100%;
+	height: 100%;
+}
+.wei .serve .serve_box .serve_neiriong .nei{
+	font-size: 18px;
+	font-weight: 700;
+	color: #444;
+	line-height: 42px;
+}
+.wei .help{
+	width: 100%;
+	border-top: 1px solid #dedede;
+	padding: 20px 0;
+	height: 160px;
+
+}
+.wei .help .list{
+	width: 1190px;
+	height: 160px;
+	margin: 0 auto;
+}
+.wei .help .list .help_box{
+	width: 198px;
+	height: 159px;
+	float: left;
+}
+.wei .help .list .help_box h3{
+	width: 198px;
+	height: 22px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #666;
+	float: left;
+}
+.wei .help .list .help_box .help_con{
+	width: 198px;
+	height: 132px;
+	float: left;
+}
+.wei .help .list .help_box .help_con li{
+	width: 198px;
+	height: 22px;
+}
+.wei .help .list .help_box .help_con li a{
+	font-size: 12px;
+	color: #666;
+}
+.wei .help .list .help_box .help_con li a:hover{
+	color:  #c81623;
+}
+.wei .help .list .help_cover{
+	width: 200px;
+	height: 150px;
+	float: left;
+}
+
+.wei .help .list .help_cover h3{
+	margin-bottom: 15px;
+	font-size: 14px;
+	text-align: center;
+	width: 200px;
+	height: 21px;
+	color: #666;
+}
+.wei .help .list .help_cover .help_nei{
+	width: 200px;
+	height: 73px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	font-size: 12px;
+	color: #666;
+}
+.wei .help .list .help_cover .help_nei .chakan{
+	width: 180px;
+	height: 19px;
+	text-align: right;
+}
+.wei .help .list .help_cover .help_nei .chakan span i{
+	font-size: 12px;
+}
+.wei .help .list .help_cover .help_nei .chakan span:hover{
+	color: #c81623;
+}
+.wei .help .list .help_cover .help_nei .chakan span:hover i{
+	color: #666;
+}
+/* 尾部结束 */
