@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'iconfont';  /* project id 1070172 */
-    src: url('https://at.alicdn.com/t/font_1070172_8gcdho27nka.eot');
-    src: url('https://at.alicdn.com/t/font_1070172_8gcdho27nka.eot?#iefix') format('embedded-opentype'),
-    url('https://at.alicdn.com/t/font_1070172_8gcdho27nka.woff2') format('woff2'),
-    url('https://at.alicdn.com/t/font_1070172_8gcdho27nka.woff') format('woff'),
-    url('https://at.alicdn.com/t/font_1070172_8gcdho27nka.ttf') format('truetype'),
-    url('https://at.alicdn.com/t/font_1070172_8gcdho27nka.svg#iconfont') format('svg');
+    src: url('https://at.alicdn.com/t/font_1070172_vnkjhugivz9.eot');
+    src: url('https://at.alicdn.com/t/font_1070172_vnkjhugivz9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_1070172_vnkjhugivz9.woff2') format('woff2'),
+    url('https://at.alicdn.com/t/font_1070172_vnkjhugivz9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_1070172_vnkjhugivz9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_1070172_vnkjhugivz9.svg#iconfont') format('svg');
   }
   .iconfont{
     font-family:"iconfont" !important;
@@ -27,7 +27,8 @@ a{
 	text-decoration: none;
 }
 body{
-    background: #F5F5F5;
+    background: #F5F5F5; 
+    
 }
 /* 头部广告开始 */
 .headguanggao{
@@ -177,15 +178,44 @@ body{
 }
 /* 头部按钮结束 */
 /* head开始 */
+.head .back{
+    padding-top: 41px;
+    width: 100%;
+    text-align: center;
+
+}
+.head .back img{
+    display: inline-block   ;
+    width: 140%
+}
 .head{
     width: 100%;
     height: 1142px;
-    background: #4F0279;
+    /* background: #4F0279; */
+    /* float: left; */
+    position: relative;
+    background:url(../img/bavkground.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.head .head_box{
+    /* float: left; */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.back img{
+    display: block;
+    position: relative;
+    z-index: 0;
 }
 .header{
     width: 100%;
     height: 130px;
     position: relative;
+
 }
 .header .header_ex{
     width: 1230px;
@@ -219,7 +249,7 @@ body{
     font-weight: 200;
 }
 .header .header_ex .sousuo span{
-    display: inline-block;
+    display: block;
     float: right;
     width: 132px;
     height: 40px;
@@ -258,7 +288,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: 1;
 }
 .header .logo img{
     width: 100%;
@@ -266,23 +296,23 @@ body{
 }
 /* head结束 */
 /* 轮播开始 */
-.lun{
+.head_box .lun{
     width: 100%;
     height: 536px;
     padding-top: 1px;
 }
-.lun .li{
+.head_box .lun .li{
     width: 1260px;
     height: 36px;
     margin: auto;
     /* padding-right: 30px; */
 }
-.lun .li .li_box_left{
+.head_box .lun .li .li_box_left{
     width: 200px;
     height: 36px;
     float: left;
 }
-.lun .li .li_box_left .shop{
+.head_box .lun .li .li_box_left .shop{
     width: 100px;
     height: 36px;
     background: #C60A0A;
@@ -292,11 +322,11 @@ body{
     line-height: 36px;
     float: left;
 }
-.lun .li .li_box_left .shop:hover{
+.head_box .lun .li .li_box_left .shop:hover{
     background: #E6E2E8;
     color: #FF0036;
 }
-.lun .li .li_box_left .nvwang{
+.head_box .lun .li .li_box_left .nvwang{
     width: 100px;
     height: 36px;
     background: #C60A0A;
@@ -306,11 +336,11 @@ body{
     line-height: 36px;
     float: left;
 }
-.lun .li .li_box_left .nvwang:hover{
+.head_box .lun .li .li_box_left .nvwang:hover{
     background:  #231129;
     color: white;
 }
-.lun .li .li_box_right{
+.head_box .lun .li .li_box_right{
     width: 1030px;
     height: 36px;
     box-sizing: border-box;
@@ -319,7 +349,7 @@ body{
     background: white;
     line-height: 36px;
 }
-.lun .li .li_box_right a{
+.head_box .lun .li .li_box_right a{
     height: 35px;
     cursor: pointer;
     float: left;
@@ -330,12 +360,219 @@ body{
     color: #333;
     letter-spacing: normal;
 }
-.lun .li .li_box_right a img{
+.head_box .lun .li .li_box_right a img{
     height: 30px;
     width: 100px;
     padding-top: 3px;
 }
-.lun .li .li_box_right a:hover{
+.head_box .lun .li .li_box_right a:hover{
     color: #FF0036;
+}
+.head_box .lun .big_lun{
+    width: 1260px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+.head_box .lun .big_lun .left_li{
+    width: 200px;
+    height: 471px;
+    padding-top: 29px;
+    /* float: left; */
+    background: #413F3F;
+    opacity: 0.8;
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+
+}
+.head_box .lun .big_lun .left_li .li-bx{
+    width: 100%;
+    padding: 0 24px;
+    margin-bottom: 14px;
+    height: 31.2px;
+    line-height: 31.2px;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    box-sizing: border-box;
+}
+.head_box .lun .big_lun .left_li .li-bx a:hover{
+    background: #cb0c10;
+}
+.head_box .lun .big_lun .left_li .li-bx a{
+    display: block;
+    width: 100%;
+    height: 31px;
+    border: 1px solid #cb0c10;
+    border-radius: 10px;
+    color: #fff;
+    text-align: left;
+    padding-left: 34px;
+    padding-right: 10px;
+    line-height: 29px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.head_box .lun .big_lun .left_li .li-bx a i{
+    margin-right: 4px;
+    height: 31px;
+    display: inline-block;  
+    font-size: 14px;
+    line-height: 29px;
+}
+.head_box .lun .big_lun .big_pi{
+    width: 1230px;
+    height: 500px;
+    float: left;
+}
+.head_box .lun .big_lun .big_pi img{
+    width: 100%;
+    height: 100%;
+}
+.head_box .lun .big_lun .dian{
+    width: 100%;
+    height: 18px;
+    /* background: white; */
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    z-index: 6;
+}
+.head_box .lun .big_lun .dian li{
+    background: #000;
+    width: 25px;
+    height: 5px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 5px;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.head_box .lun .big_lun .dian li:hover{
+    background: white;
+}
+.head_box .lun .activity_nvwang{
+    width: 100%;
+    height: 435px;
+}
+.head_box .lun .activity_nvwang .activity_box{
+    width: 1230px;
+    height: 100%;
+    padding-right: 30px;
+    margin: auto;
+    /* background: orange */
+}
+.head_box .lun .activity_nvwang .activity_box .nvwnag{
+    width: 100%;
+    height: 105px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.head_box .lun .activity_nvwang .activity_box .nvwnag .nvwnag_box{
+    width: 300px;
+    height: 65px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.head_box .lun .activity_nvwang .activity_box .nvwnag .nvwnag_box img{
+    width: 100%;
+    height: 100%;
+}
+.head_box .lun .activity_nvwang .activity_box .avti_left{
+    width: 610px;
+    height: 330px;
+    margin-right: 10px;
+    float: left;
+    /* background: red; */
+    position: relative;
+}
+.head_box .lun .activity_nvwang .activity_box .avti_left .d{
+    color: #ff0e3c;
+    background-image: url(../img/nvwang1.png);
+    box-shadow: -5px 5px 10px rgba(0,0,0,.2);
+    width: 250px;
+    height: 330px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+}
+
+.head_box .lun .activity_nvwang .activity_box .avti_left .d .name{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 32px;
+    height: 36px;
+    line-height: 36px;
+}   
+.head_box .lun .activity_nvwang .activity_box .avti_left .d .price{
+    font-size: 18px;
+    text-align: center;
+    height: 27px;
+    line-height: 27px;
+}
+.head_box .lun .activity_nvwang .activity_box .avti_left .d .back{
+    display: block;
+    width: 180px;
+    height: 180px;
+    /* position: absolute; */
+    margin: 20px auto;
+    padding: 0;
+
+}
+.head_box .lun .activity_nvwang .activity_box .avti_left .two{
+    color: #8300ff;
+    background-image: url(../img/nvwang2.png);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    width: 350px;
+    height: 160px;
+    margin: 0 0 10px 260px;
+}
+.head_box .lun .activity_nvwang .activity_box .avti_left .two .name{
+    margin-left: 30px;
+    padding-top: 27px;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+}
+.head_box .lun .activity_nvwang .activity_box .avti_left .two .price{
+    /* margin-left: 25px; */
+    text-align: left;
+    margin-left: 30px;
+}
+.head_box .lun .activity_nvwang .activity_box .avti_left .two .back{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    margin: 0;
+}
+.head_box .lun .activity_nvwang .activity_box .avti_left .three{
+    color: #009d66;
+    background-image: url(../img/nvwang3.png);
+    top: 170px;
+}
+.head_box .lun .activity_nvwang .activity_box .right{
+    margin-right: 0;
+}
+.head_box .lun .activity_nvwang .activity_box .right .one{
+    color: #ff520c;
+    background-image: url(../img/nvwang4.png);
+}
+.head_box .lun .activity_nvwang .activity_box .right .two{
+    color: #005aff;
+    background-image: url(../img/nvwang5.png);
+}
+.head_box .lun .activity_nvwang .activity_box .right .three{
+    color: #ff6684;
+    background-image: url(../img/nvwang6.png);
 }
 /* 轮播结束 */
