@@ -154,11 +154,16 @@ a {
 
 /* 小米官网顶部导航结束 */
 /* 小米官网搜素开始 */
+.sear{
+	width: 100%;
+	height: 100px;	
+	position: relative;
+}
 .search-box {
 	width: 1226px;
 	height: 100px;
-
 	margin: 0 auto;
+	
 }
 
 .mi-logo {
@@ -184,6 +189,82 @@ a {
 	font-size: 16px;
 	line-height: 100px;
 	margin: 0 10px;
+}
+.se_lshop{
+	position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 30;
+	width: 100%;
+    height: 229px;
+    border-top: 1px solid #e0e0e0;
+	background: #fff;
+	height: 229px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+	margin-bottom: 0px;
+	display: none;
+}
+.se_lshop ul{
+	font-size: 12px;
+	width: 1226px;
+	height: 229px;
+	margin: 0 auto;
+	display: none;
+}
+.se_lshop ul .se_sp{
+	position: relative;
+    float: left;
+    width: 180px;
+    padding: 35px 12px 0;
+    text-align: center;
+}
+.se_lshop ul .se_sp .se_spti{
+	display: block;
+    /* color: #757575; */
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 16px;
+	border-right: 1px solid #e0e0e0;
+
+}
+.se_lshop ul .se_sp .last{
+	border-right: 0;
+}
+.se_lshop ul .se_sp .se_spti img{
+	width: 160px;
+    height: 110px;
+}
+.se_lshop ul .se_sp .se_name{
+	display: block;
+    color: #333;
+	text-decoration: none;
+	text-align: center;
+	line-height: 20px;
+	margin: 0 auto;
+}
+.se_lshop ul .se_sp p{
+	list-style-type: none;
+	font-size: 12px;
+	line-height: 20px;
+    color: #ff6700;
+}
+.se_lshop ul .se_sp .se_ti{
+	position: absolute;
+    top: -1px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+.se_lshop ul .se_sp .se_ti .tt{
+	height: 18px;
+    padding: 1px 20px;
+    border: 1px solid #ff6700;
+	color: #ff6700;
+	display: inline-block;
 }
 /* 伪类选择器，当鼠标移入效果 */
 .search-list span:hover{
@@ -214,7 +295,9 @@ a {
     width: 243px;
     border: 1px solid #ff6700;
     border-top: 0;
-    background: #fff;
+}
+.search-bar .jdsou .re_li .yueyou{
+	background-color: white;
 }
 .search-bar .jdsou .re_li li a{
 	position: relative;
@@ -231,6 +314,9 @@ a {
     right: 15px;
     top: 6px;
     color: #b0b0b0;
+}
+.search-bar .jdsou .re_li .yueyou:hover{
+background: #f0f0f0;
 }
 .search-input{
 	width: 245px;
@@ -315,6 +401,66 @@ a {
 .bannerlist-item i{
 	float: right;
 	margin-right: 20px;
+}
+.bannerlist-item .bi1{
+	width: 998px;
+}
+.bannerlist-item .bi2{
+	width: 530px;
+}
+.bannerlist-item .bi3{
+	width: 795px;
+}
+.bannerlist-item .bannerLi_box{
+	/* display: inline-block; */
+	display: none;
+	height: 458px;
+	/* width: 992px; */
+	/* padding: 2px 0; */
+	background: white;
+	/* float: left; */
+	position: absolute;
+	left: 234px;
+	top: 0;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+	border: 1px solid #e0e0e0;
+	font-size: 14px;
+	z-index: 99;
+	
+}
+.bannerlist-item .bannerLi_box ul{
+	/* list-style-type: none; */
+	/* display: inline-block; */
+	width: 248px;
+	height: 458px;
+	padding: 2px 0;
+	float: left;
+}
+.bannerlist-item .bannerLi_box .ban_shop{
+    width: 248px;
+	height: 76px;
+	/* position: relative; */
+	/* float: left; */
+}
+/* .bannerlist-item .bannerLi_box:hover span{
+	color: #ff6700;
+} */
+.bannerlist-item .bannerLi_box .ban_shop a{
+	display: block;
+    padding: 18px 20px;
+    line-height: 40px;
+	color: #333;
+	transition: color 0.2s;
+}
+.bannerlist-item .bannerLi_box .ban_shop a img{
+	margin-right: 12px;
+	vertical-align: middle;
+	width: 40px;
+    height: 40px;
+}
+.bannerlist-item .bannerLi_box .ban_shop a span{
+	line-height: 40px;
+	font-size: 14px;
 }
 .btn{
 	width: 41px;
@@ -1442,6 +1588,8 @@ li.tubiao{
 	height: 150px;
 	float: left;
 	color: #424242;
+	font-size: 14px;
+	line-height: 1.25;
 }
 .tito:hover{
 	color: #ff6700;
@@ -1454,6 +1602,8 @@ li.tubiao{
 	height: 20px;
 	/* margin-top: 26px; */
 	margin-top: 14px;
+	font-size: 12px;
+	color: #757575;
 }
 .titlel .tito:nth-child(1){
 	margin-top: 26px;
@@ -1525,7 +1675,7 @@ li.tubiao{
 }
 .weibu-wenzi .top{
 	width: 100%;
-	height: 36px;
+	height: 19px;
 	font-size: 12px;
 	color: #b0b0b0;
 	line-height: 18px;
