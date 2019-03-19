@@ -306,11 +306,16 @@ body{
     height: 36px;
     margin: auto;
     /* padding-right: 30px; */
+    position: relative;
 }
 .head_box .lun .li .li_box_left{
     width: 200px;
     height: 36px;
     float: left;
+    /* position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 88; */
 }
 .head_box .lun .li .li_box_left .shop{
     width: 100px;
@@ -360,6 +365,7 @@ body{
     color: #333;
     letter-spacing: normal;
 }
+
 .head_box .lun .li .li_box_right a img{
     height: 30px;
     width: 100px;
@@ -373,6 +379,7 @@ body{
     height: 500px;
     margin: auto;
     position: relative;
+    /* overflow: hidden; */
 }
 .head_box .lun .big_lun .left_li{
     width: 200px;
@@ -384,6 +391,7 @@ body{
     position: absolute;
     left: 0;
     top: 0;
+    z-index: 99;
     
 
 }
@@ -424,10 +432,21 @@ body{
     font-size: 14px;
     line-height: 29px;
 }
+.xxx{
+    width: 1230px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
 .head_box .lun .big_lun .big_pi{
     width: 1230px;
     height: 500px;
-    float: left;
+    /* float: left; */
+    overflow: hidden;
+    position: absolute;
+    left: -1230px;
+    top: 0
+
 }
 .head_box .lun .big_lun .big_pi img{
     width: 100%;
@@ -453,8 +472,8 @@ body{
     cursor: pointer;
     opacity: 0.3;
 }
-.head_box .lun .big_lun .dian li:hover{
-    background: white;
+.active{
+    background: white !important;
 }
 .head_box .lun .activity_nvwang{
     width: 100%;
@@ -1457,3 +1476,16 @@ body{
     vertical-align: middle;
 }
 /* 底部结束 */
+/* 顶部搜索 */
+/* 顶部搜索结束 */
+
+/* 楼层跳转开始 */
+.louceng{
+width: 36px;
+height: 258px;
+position: fixed;
+bottom: 50px;
+left: 2px;
+background: black;
+}
+/* 楼层跳转结束 */
